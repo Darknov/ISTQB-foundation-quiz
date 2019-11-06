@@ -3,13 +3,11 @@ import { getQuestions } from "./questions.js";
 const app = {}
 
 app.setup = function() {
-  getQuestions()
-    .then
+  getQuestions();
 }
 
 app.start = function() {
-  this.start
-  console.log("started");
+  this.setup();
 }
 
 export {app};
