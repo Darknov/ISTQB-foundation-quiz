@@ -1,13 +1,17 @@
 import { getQuestions } from "./questions.js";
+import { updateView } from "./view.js";
 
 const app = {}
 
-app.setup = function() {
-  getQuestions();
+app.state = {};
+
+app.setup = async function () {
+  const questions = await getQuestions();
+  return questions;
 }
 
-app.start = function() {
-  this.setup();
+app.start = async function () {
+
 }
 
-export {app};
+export { app };

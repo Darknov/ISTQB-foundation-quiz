@@ -21,5 +21,7 @@ export default pageElements = {
     b: getElement("explanationB"),
     c: getElement("explanationC"),
     d: getElement("explanationD"),
-  }
+  },
+
+  explanation: getElement("explanations")
 }
