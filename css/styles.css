@@ -1,3 +1,7 @@
 #explanations {
   visibility: hidden;
 }
+
+#answers span {
+  padding: 5px;
+}

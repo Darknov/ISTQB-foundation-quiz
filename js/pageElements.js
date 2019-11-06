@@ -1,8 +1,8 @@
 const getElement = id => document.getElementById(id);
 
 export const pageElements = {
-  correctAnswers: getElement("correctAnswers"),
-  totalAnswers: getElement("totalAnswers"),
+  correctAnswersNumber: getElement("correctAnswersNumber"),
+  totalAnswersNumber: getElement("totalAnswersNumber"),
   question: getElement("question"),
   
   buttons: [ ],

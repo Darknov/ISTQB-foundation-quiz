@@ -8,14 +8,12 @@ app.state = {};
 
 app.nextQuestion = function() {
   const randomQuestion = this.questions[randomInt(0,this.questions.length - 1)];
-  console.log(randomQuestion);
-  this.state.correctAnswers = randomQuestion.correctAnswers;
-  this.state.totalAnswers++;
+
+  this.state.correctAnswer = randomQuestion.correctAnswer;
   this.state.question = randomQuestion.question;
   this.state.possibleAnswers = randomQuestion.possibleAnswers;
   this.state.explanation = randomQuestion.explanation;
   this.state.showExplanation = true;
-  console.log(this.state);
 }
 
 app.setup = async function () {
@@ -27,8 +25,10 @@ app.start = function () {
   this.setup()
     .then(questions => {
       this.questions = questions;
-      this.state.totalAnswers = 0;
+      this.state.totalAnswersNumber = 0;
+      this.state.correctAnswersNumber = 0;
       this.nextQuestion();
+      updateView(this.state);
     })
     
 }
