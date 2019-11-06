@@ -1,11 +1,13 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
   <title>ISTQB Foundation Level Quiz</title>
-  <meta name="description" content="ISTQB Foundation Level Quiz that uses polish version of Example Exams to test your knowledge!">
+  <meta name="description"
+    content="ISTQB Foundation Level Quiz that uses polish version of Example Exams to test your knowledge!">
   <meta name="author" content="Przemysław Maciaszek">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -13,6 +15,40 @@
 </head>
 
 <body>
-  <script src="js/main.js"></script>
+  <div class="app">
+    <div class="score">
+      <span>Score: </span>
+      <span id="correctAnswers">0</span>
+      <span>/</span>
+      <span id="totalAnswers">0</span>
+    </div>
+    <div id="question">?</div>
+    <div class="answers">
+      <div class="answer">
+        <button id="a">A</button>
+        <span id="answerA">answer a</span>
+      </div>
+      <div class="answer">
+        <button id="b">B</button>
+        <span id="answerB">answer b</span>
+      </div>
+      <div class="answer">
+        <button id="c">C</button>
+        <span id="answerC">answer c</span>
+      </div>
+      <div class="answer">
+        <button id="d">D</button>
+        <span id="answerD">answer d</span>
+      </div>
+    </div>
+    <div class="explanations">
+      <div id="explanationA">eplanationA</div>
+      <div id="explanationB">eplanationB</div>
+      <div id="explanationC">eplanationC</div>
+      <div id="explanationD">eplanationD</div>
+    </div>
+  </div>
+  <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
