@@ -1,0 +1,100 @@
+{
+  "questions": [
+    {
+      "question": "Która z poniższych odpowiedzi NAJLEPIEJ opisuje warunek testowy?",
+      "possibleAnswers": [
+        "a) Atrybut modułu lub systemu wyspecyfikowany w dokumentacji wymagań lub z niej\r\n        wywnioskowany. ",
+        "b) Element lub zdarzenie modułu lub systemu, które może być zweryfikowane przez\r\n        jeden lub więcej przypadków testowych, np. funkcja, transakcja, cecha, atrybut\r\n        jakości lub element struktury.",
+        "c) Zdolność oprogramowania do zapewnienia funkcji odpowiadających zdefiniowanym\r\n        i przewidywanym potrzebom, gdy oprogramowanie jest używane w określonych\r\n        warunkach. ",
+        "d) Procent pokrycia wyników warunków atomowych niezależnie wpływających na wynik\r\n        decyzji wykonany przez zestaw przypadków testowych."
+      ],
+      "correctAnswer": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Jest to definicja „cechy” zgodnie ze Słownikiem\r\n        wyrażeń związanych z testowaniem wersja 3.2. ",
+        "b) Odpowiedź poprawna — zgodnie ze Słownikiem wyrażeń związanych z\r\n        testowaniem wersja 3.2.",
+        "c) Odpowiedź niepoprawna. Jest to definicja „przydatności funkcjonalnej”\r\n        zgodnie ze Słownikiem wyrażeń związanych z testowaniem wersja 3.2.",
+        "d) Odpowiedź niepoprawna. Jest to definicja „zmodyfikowanego pokrycia\r\n        warunków/decyzji (MC/DC)” zgodnie ze Słownikiem wyrażeń związanych z\r\n        testowaniem wersja 3.2."
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswer": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "Która z poniższych odpowiedzi prawidłowo wyraża jeden z celów testowania?",
+      "possibleAnswers": [
+        "a) Ustalenie, czy w ramach testowania systemowego przeprowadzono wystarczającą\r\n        liczbę testów modułowych.",
+        "b) Znalezienie jak największej liczby awarii w celu zidentyfikowania i usunięcia\r\n        defektów.",
+        "c) Potwierdzenie, że zidentyfikowano wszystkie możliwe defekty.",
+        "d) Potwierdzenie, że ewentualne nieusunięte defekty nie spowodują żadnych awarii."
+      ],
+      "correctAnswer": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Sprzeczność z zasadą nr 3 „Wczesne testowanie\r\n        oszczędza czas i pieniądze”.",
+        "b) Odpowiedź poprawna. Jest to prawidłowy cel testowania.",
+        "c) Odpowiedź niepoprawna. Zgodnie z zasadą nr 2 „Testowanie gruntowne jest\r\n        niemożliwe”, w związku z czym nie da się w żadnym razie udowodnić\r\n        zidentyfikowania wszystkich defektów (sylabus, p. 1.3.).",
+        "d) Odpowiedź niepoprawna. Aby ocenić, czy dany defekt spowoduje awarię,\r\n        należy go najpierw wykryć. Stwierdzenie, że żaden z nieusuniętych defektów\r\n        nie spowoduje awarii, oznacza pośrednio, że wykryto wszystkie defekty, co\r\n        także jest sprzeczne z zasadą nr 2 (sylabus, p. 1.3.)."
+      ]
+    },
+    {
+      "question": "Które z poniższych stwierdzeń poprawnie opisuje różnicę między testowaniem\r\n      a debugowaniem?",
+      "possibleAnswers": [
+        "a) Testowanie polega na identyfikowaniu źródeł defektów, a debugowanie — na\r\n        analizowaniu usterek i proponowaniu działań prewencyjnych.",
+        "b) Testowanie pozwala wskazać awarie spowodowane przez defekty, a debugowanie\r\n        polega na znajdowaniu, analizowaniu i usuwaniu przyczyn awarii w oprogramowaniu.",
+        "c) Testowanie polega na usuwaniu usterek, a debugowanie — na identyfikowaniu\r\n        przyczyn awarii.",
+        "d) Testowanie ma na celu zapobieganie wystąpieniu przyczyn awarii, a debugowanie\r\n        polega na usuwaniu awarii."
+      ],
+      "correctAnswer": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Testowanie nie identyfikuje źródeł defektów, to\r\n        zadanie debugowania (sylabus, p. 1.1.2.).",
+        "b) Odpowiedź poprawna. Testowanie dynamiczne pozwala ujawnić awarie\r\n        spowodowane przez defekty. Debugowanie eliminuje usterki, które są\r\n        źródłem awarii, ale nie główne przyczyny usterek (zgodnie z p. 1.1.2.\r\n        sylabusa).",
+        "c) Odpowiedź niepoprawna. Testowanie nie usuwa usterek, to zadanie\r\n        debugowania (sylabus, p. 1.1.2.).",
+        "d) Odpowiedź niepoprawna. Testowanie dynamiczne nie zapobiega\r\n        bezpośrednio przyczynom awarii (defektom), ale wykrywa obecność\r\n        defektów."
+      ]
+    },
+    {
+      "question": "Która z poniższych odpowiedzi dotyczących zjawisk zaistniałych podczas testowania lub\r\n      eksploatacji opisuje awarię?",
+      "possibleAnswers": [
+        "a) Produkt przestał działać po wybraniu przez użytkownika jednej z opcji w oknie\r\n        dialogowym.",
+        "b) W kompilacji uwzględniono niewłaściwą wersję jednego z plików kodu źródłowego.",
+        "c) Algorytm obliczeniowy korzystał z niewłaściwych zmiennych wejściowych.",
+        "d) Programista błędnie zinterpretował jedno z wymagań dotyczących algorytmu."
+      ],
+      "correctAnswer": "a",
+      "explanation": [
+        "a) Odpowiedź poprawna Przerwa w działaniu programu jest wyraźnie\r\n        widoczna dla użytkownika (sylabus, p. 1.2.3.).",
+        "b) Odpowiedź niepoprawna. Jest to defekt, a nie awaria, ponieważ coś nie tak\r\n        jest\r\n        w kodzie. Może to nie spowodować widocznej lub zauważalnej awarii, np.\r\n        jeśli zmiany w pliku kodu źródłowego są tylko w komentarzach (sylabus, p.\r\n        1.2.3.).",
+        "c) Odpowiedź niepoprawna. Użycie niepoprawnej zmiennej wejściowej nie\r\n        musi doprowadzić do widocznej awarii. To jest defekt a nie awaria, ponieważ\r\n        nieprawidłowość występuje w kodzie. Jeśli to obliczenie nie jest używane w\r\n        teście ani w produkcji, awaria nie wystąpi (np. jeśli nikt nie korzysta z danego\r\n        algorytmu, jeśli niepoprawna zmienna wejściowa ma podobną wartość do\r\n        zmiennej poprawnej lub jeśli nikt nie korzysta z niepoprawnych rezultatów\r\n        działania algorytmu). (sylabus, p. 1.2.3.).",
+        "d) Odpowiedź niepoprawna. Tego typu pomyłka nie musi doprowadzić do\r\n        awarii, np. jeśli nikt nie używa tego specjalnego algorytmu (sylabus, p. 1.2.3.)."
+      ]
+    },
+    {
+      "question": "Które z poniższych stwierdzeń NAJLEPIEJ opisuje jedną z siedmiu głównych zasad testowania\r\n      oprogramowania?",
+      "possibleAnswers": [
+        "a) Testowanie automatyczne umożliwia przetestowanie wszystkiego.",
+        "b) Testowanie gruntowne jest możliwe w przypadku każdego oprogramowania pod\r\n        warunkiem przeznaczenia na to wystarczających nakładów pracy i posiadania\r\n        odpowiednich narzędzi.",
+        "c) W przypadku typowego oprogramowania nie da się przetestować wszystkich\r\n        kombinacji danych wejściowych i warunków wstępnych.",
+        "d) Celem testowania jest potwierdzenie braku defektów."
+      ],
+      "correctAnswer": "c",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Testowanie jest zależne od kontekstu, niezależnie\r\n        od tego, czy jest wykonywane ręczne czy automatycznie (sylabus, Rozdział\r\n        1.3., zasada 6.), ale nie powoduje wykrycia malejącej liczby błędów, jak\r\n        opisano w pytaniu.",
+        "b) Odpowiedź niepoprawna. Testowanie gruntowne jest niemożliwe niezależnie\r\n        od nakładów pracy związanych z wykonywaniem testów (sylabus, p. 1.3.2.,\r\n        zasada 5.).",
+        "c) Odpowiedź poprawna. W sylabusie p. 1.3. zasada 5. podano, że „aby móc\r\n        wykrywać nowe defekty, może być konieczne zmodyfikowanie\r\n        dotychczasowych testów i danych testowych, a także napisanie nowych\r\n        testów.” Automatyczne testy regresji tych samych przypadków testowych\r\n        nie przyniosą nowych wyników.",
+        "d) Odpowiedź niepoprawna. Zasada „kumulowanie się defektów” (sylabus, p.\r\n        1.3.4., zasada 4.) mówi, że „zwykle większość defektów wykrytych podczas\r\n        testowania przed przekazaniem oprogramowania do eksploatacji lub\r\n        większość awarii występujących w fazie eksploatacji występuje lub ma swoje\r\n        źródło w niewielkiej liczbie modułów”, co nie oznacza, że coraz mniej błędów\r\n        zostanie znalezionych."
+      ]
+    }
+  ]
+}
