@@ -8,7 +8,7 @@
         "c) Zdolność oprogramowania do zapewnienia funkcji odpowiadających zdefiniowanym\r\n        i przewidywanym potrzebom, gdy oprogramowanie jest używane w określonych\r\n        warunkach. ",
         "d) Procent pokrycia wyników warunków atomowych niezależnie wpływających na wynik\r\n        decyzji wykonany przez zestaw przypadków testowych."
       ],
-      "correctAnswer": "b",
+      "correctAnswers": "b",
       "explanation": [
         "a) Odpowiedź niepoprawna. Jest to definicja „cechy” zgodnie ze Słownikiem\r\n        wyrażeń związanych z testowaniem wersja 3.2. ",
         "b) Odpowiedź poprawna — zgodnie ze Słownikiem wyrażeń związanych z\r\n        testowaniem wersja 3.2.",
@@ -24,7 +24,7 @@
         "",
         ""
       ],
-      "correctAnswer": "",
+      "correctAnswers": "",
       "explanation": [
         "",
         "",
@@ -40,7 +40,7 @@
         "c) Potwierdzenie, że zidentyfikowano wszystkie możliwe defekty.",
         "d) Potwierdzenie, że ewentualne nieusunięte defekty nie spowodują żadnych awarii."
       ],
-      "correctAnswer": "b",
+      "correctAnswers": "b",
       "explanation": [
         "a) Odpowiedź niepoprawna. Sprzeczność z zasadą nr 3 „Wczesne testowanie\r\n        oszczędza czas i pieniądze”.",
         "b) Odpowiedź poprawna. Jest to prawidłowy cel testowania.",
@@ -56,7 +56,7 @@
         "c) Testowanie polega na usuwaniu usterek, a debugowanie — na identyfikowaniu\r\n        przyczyn awarii.",
         "d) Testowanie ma na celu zapobieganie wystąpieniu przyczyn awarii, a debugowanie\r\n        polega na usuwaniu awarii."
       ],
-      "correctAnswer": "b",
+      "correctAnswers": "b",
       "explanation": [
         "a) Odpowiedź niepoprawna. Testowanie nie identyfikuje źródeł defektów, to\r\n        zadanie debugowania (sylabus, p. 1.1.2.).",
         "b) Odpowiedź poprawna. Testowanie dynamiczne pozwala ujawnić awarie\r\n        spowodowane przez defekty. Debugowanie eliminuje usterki, które są\r\n        źródłem awarii, ale nie główne przyczyny usterek (zgodnie z p. 1.1.2.\r\n        sylabusa).",
@@ -72,7 +72,7 @@
         "c) Algorytm obliczeniowy korzystał z niewłaściwych zmiennych wejściowych.",
         "d) Programista błędnie zinterpretował jedno z wymagań dotyczących algorytmu."
       ],
-      "correctAnswer": "a",
+      "correctAnswers": "a",
       "explanation": [
         "a) Odpowiedź poprawna Przerwa w działaniu programu jest wyraźnie\r\n        widoczna dla użytkownika (sylabus, p. 1.2.3.).",
         "b) Odpowiedź niepoprawna. Jest to defekt, a nie awaria, ponieważ coś nie tak\r\n        jest\r\n        w kodzie. Może to nie spowodować widocznej lub zauważalnej awarii, np.\r\n        jeśli zmiany w pliku kodu źródłowego są tylko w komentarzach (sylabus, p.\r\n        1.2.3.).",
@@ -88,7 +88,7 @@
         "c) W przypadku typowego oprogramowania nie da się przetestować wszystkich\r\n        kombinacji danych wejściowych i warunków wstępnych.",
         "d) Celem testowania jest potwierdzenie braku defektów."
       ],
-      "correctAnswer": "c",
+      "correctAnswers": "c",
       "explanation": [
         "a) Odpowiedź niepoprawna. Testowanie jest zależne od kontekstu, niezależnie\r\n        od tego, czy jest wykonywane ręczne czy automatycznie (sylabus, Rozdział\r\n        1.3., zasada 6.), ale nie powoduje wykrycia malejącej liczby błędów, jak\r\n        opisano w pytaniu.",
         "b) Odpowiedź niepoprawna. Testowanie gruntowne jest niemożliwe niezależnie\r\n        od nakładów pracy związanych z wykonywaniem testów (sylabus, p. 1.3.2.,\r\n        zasada 5.).",

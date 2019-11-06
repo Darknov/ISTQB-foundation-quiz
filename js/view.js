@@ -1,4 +1,26 @@
-import elements from "./pageElements.js";
+import {pageElements as elements} from "./pageElements.js";
+
+const letterTab = ["a", "b", "c", "d", "e", "f", "g", "h"];
+
+function createAnswers(possibleAnswers) {
+  elements.possibleAnswers = [];
+  elements.buttons = [];
+
+  for(let i = 0; i < possibleAnswers.length; i++) {
+    const button = document.createElement("button");
+    button.innerHTML = letterTab[i];
+
+    const answer = document.createElement("span");
+    answer.innerHTML = possibleAnswers[i];
+
+    elements.answers.appendChild(button);
+    elements.answers.appendChild(answer);
+  }
+}
+
+function createExplanations(explanations) {
+  elements.explanations = [];
+}
 
 export function updateView(state) {
   elements.correctAnswers.innerHTML = state.correctAnswers;
@@ -6,15 +28,8 @@ export function updateView(state) {
 
   elements.question.innerHTML = state.question;
 
-  elements.answers.a.innerHTML = state.answers.a;
-  elements.answers.b.innerHTML = state.answers.b;
-  elements.answers.c.innerHTML = state.answers.c;
-  elements.answers.d.innerHTML = state.answers.d;
-
-  elements.explanations.a.innerHTML = state.explanations.a;
-  elements.explanations.a.innerHTML = state.explanations.a;
-  elements.explanations.a.innerHTML = state.explanations.a;
-  elements.explanations.a.innerHTML = state.explanations.a;
+  createAnswers(state.possibleAnswers);
+  createExplanations(state.explanations);
 
   state.showExplanation ? 
     elements.explanation.visibility = "visible":
