@@ -9,3 +9,8 @@
 #nextQuestion {
   visibility: hidden;
 }
+
+#app {
+  display: "none";
+  visibility: hidden;
+}

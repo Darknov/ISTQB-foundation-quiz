@@ -58,8 +58,17 @@ app.setButtons = function () {
   }
 }
 
+app.getQuestion = function() {
+  let question = this.questions[randomInt(1, this.questions.length)];
+  while(question.isAnswered) {
+    question = this.questions[randomInt(1, this.questions.length)];
+  }
+  question.isAnswered = true;
+  return question;
+}
+
 app.setQuestion = function () {
-  const randomQuestion = this.questions[randomInt(1, this.questions.length - 1)];
+  const randomQuestion = this.getQuestion();
 
   this.state.correctAnswers = randomQuestion.correctAnswers;
   this.state.question = randomQuestion.question;
@@ -71,13 +80,18 @@ app.setQuestion = function () {
 }
 
 app.nextQuestion = function () {
-  this.setQuestion();
-  nextQuestionView(this.state);
-  this.setButtons();
+  if(this.questions.length !== this.state.totalAnswersNumber) {
+    this.setQuestion();
+    nextQuestionView(this.state);
+    this.setButtons();
+  }
 }
 
 app.setup = async function () {
-  const questions = await getQuestions();
+  const questions = await getQuestions()
+  for (const q of questions) {
+    q.isAnswered = false;
+  }
   return questions;
 }
 
