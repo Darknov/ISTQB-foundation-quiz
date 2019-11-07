@@ -10,5 +10,6 @@ export const pageElements = {
   explanations: [],
 
   answers: getElement("answers"),
-  explanation: getElement("explanations")
+  explanation: getElement("explanations"),
+  nextQuestion: getElement("nextQuestion")
 }

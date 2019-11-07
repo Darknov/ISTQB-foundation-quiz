@@ -5,3 +5,7 @@
 #answers span {
   padding: 5px;
 }
+
+#nextQuestion {
+  visibility: hidden;
+}

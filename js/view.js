@@ -3,7 +3,7 @@ import { pageElements as elements } from "./pageElements.js";
 function createAnswers(possibleAnswers) {
   elements.possibleAnswers = [];
   elements.buttons = [];
-
+  elements.answers.innerHTML = "";
   for (let i = 0; i < possibleAnswers.length; i++) {
     const answerDiv = document.createElement("div");
     const button = document.createElement("button");
@@ -24,7 +24,7 @@ function createAnswers(possibleAnswers) {
 
 function createExplanations(explanations) {
   elements.explanations = [];
-
+  elements.explanation.innerHTML = "";
   for (let i = 0; i < explanations.length; i++) {
     const explanation = document.createElement("div");
 
@@ -40,12 +40,21 @@ export function updateView(state) {
 
   elements.question.innerHTML = state.question;
 
-  createAnswers(state.possibleAnswers);
-  createExplanations(state.explanation);
-
   if (state.showExplanation) {
     elements.explanation.style.visibility = "visible";
   } else {
     elements.explanation.style.visibility = "hidden";
   }
+
+  if (state.showNextQuestion) {
+    elements.nextQuestion.style.visibility = "visible";
+  } else {
+    elements.nextQuestion.style.visibility = "hidden";
+  }
+}
+
+export function nextQuestionView(state) {
+  createAnswers(state.possibleAnswers);
+  createExplanations(state.explanation);
+  updateView(state);
 }
