@@ -90,7 +90,7 @@ app.start = function () {
   this.setup()
     .then(questions => {
       this.questions = questions;
-      this.state.totalAnswersNumber = 0;
+      this.state.totalAnswersNumber = 1;
       this.state.correctAnswersNumber = 0;
       this.nextQuestion();
       updateView(this.state);
