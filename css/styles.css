@@ -11,6 +11,7 @@
 }
 
 #app {
-  display: "none";
   visibility: hidden;
 }
+
+@import "../node_modules/bulma/css/bulma.css";

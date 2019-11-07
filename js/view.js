@@ -8,6 +8,7 @@ function createAnswers(possibleAnswers) {
     const answerDiv = document.createElement("div");
     const button = document.createElement("button");
     button.innerHTML = " --> ";
+    button.classList.add("button");
 
     const answer = document.createElement("span");
     answer.innerHTML = possibleAnswers[i];
