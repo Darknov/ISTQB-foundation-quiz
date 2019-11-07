@@ -11,5 +11,9 @@ export const pageElements = {
 
   answers: getElement("answers"),
   explanation: getElement("explanations"),
-  nextQuestion: getElement("nextQuestion")
+  nextQuestion: getElement("nextQuestion"),
+  app: getElement("app"),
+  finalScore: getElement("finalScore"),
+  finish: getElement("finish"),
+  reset: getElement("reset")
 }

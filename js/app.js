@@ -5,8 +5,6 @@ import { pageElements as elements } from "./pageElements.js";
 
 const app = {}
 
-app.state = {};
-
 app.addScore = function () {
   this.state.correctAnswersNumber++;
   updateView(this.state);
@@ -81,14 +79,13 @@ app.setQuestion = function () {
 }
 
 app.nextQuestion = function () {
-  if (this.questions.length !== this.state.totalAnswersNumber) {
-    this.setQuestion();
-    nextQuestionView(this.state);
-    this.setButtons();
-  }
+  this.setQuestion();
+  nextQuestionView(this.state);
+  this.setButtons();
 }
 
 app.setup = async function () {
+  this.state = {};
   const questions = await getQuestions()
   for (const q of questions) {
     q.isAnswered = false;
@@ -96,24 +93,42 @@ app.setup = async function () {
   return questions;
 }
 
-app.start = function () {
-  elements.nextQuestion.addEventListener("click", () => {
-    app.addTotalAnswersNumber();
-    app.nextQuestion();
-  });
-
+app.begin = function() {
   this.setup()
-    .then(questions => {
-      this.questions = questions;
-      this.state.totalAnswersNumber = 1;
-      this.state.correctAnswersNumber = 0;
-      this.nextQuestion();
-      updateView(this.state);
-    })
+  .then(questions => {
+    this.questions = questions;
+    this.state.totalAnswersNumber = 1;
+    this.state.correctAnswersNumber = 0;
+    this.nextQuestion();
+    updateView(this.state);
+  });
 }
 
-app.finish = function() {
+app.start = function () {
+  elements.nextQuestion.addEventListener("click", () => {
+    if (app.state.totalAnswersNumber < app.questions.length - 1) {
+      app.addTotalAnswersNumber();
+      app.nextQuestion();
+    } else {
+      app.finish();
+    }
+  });
 
+  elements.reset.addEventListener("click", () => {
+    elements.app.style.display = "inline-block";
+    elements.finish.style.display = "none";
+    this.begin();
+  });
+
+  this.begin();
+}
+
+
+
+app.finish = function () {
+  elements.app.style.display = "none";
+  elements.finish.style.display = "inline-block";
+  elements.finalScore.innerHTML = this.state.correctAnswersNumber / this.state.totalAnswersNumber * 100;
 }
 
 export { app };
