@@ -1,12 +1,10 @@
-import {pageElements as elements} from "./pageElements.js";
-
-const letterTab = ["a", "b", "c", "d", "e", "f", "g", "h"];
+import { pageElements as elements } from "./pageElements.js";
 
 function createAnswers(possibleAnswers) {
   elements.possibleAnswers = [];
   elements.buttons = [];
 
-  for(let i = 0; i < possibleAnswers.length; i++) {
+  for (let i = 0; i < possibleAnswers.length; i++) {
     const answerDiv = document.createElement("div");
     const button = document.createElement("button");
     button.innerHTML = " --> ";
@@ -19,7 +17,7 @@ function createAnswers(possibleAnswers) {
 
     answerDiv.appendChild(button);
     answerDiv.appendChild(answer);
-    
+
     elements.answers.appendChild(answerDiv);
   }
 }
@@ -27,11 +25,11 @@ function createAnswers(possibleAnswers) {
 function createExplanations(explanations) {
   elements.explanations = [];
 
-  for(let i = 0; i < explanations.length; i++) {
+  for (let i = 0; i < explanations.length; i++) {
     const explanation = document.createElement("div");
 
     explanation.innerHTML = explanations[i];
-    
+
     elements.explanation.appendChild(explanation);
   }
 }
@@ -45,7 +43,7 @@ export function updateView(state) {
   createAnswers(state.possibleAnswers);
   createExplanations(state.explanation);
 
-  if(state.showExplanation) {
+  if (state.showExplanation) {
     elements.explanation.style.visibility = "visible";
   } else {
     elements.explanation.style.visibility = "hidden";

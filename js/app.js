@@ -6,8 +6,8 @@ const app = {}
 
 app.state = {};
 
-app.nextQuestion = function() {
-  const randomQuestion = this.questions[randomInt(0,this.questions.length - 1)];
+app.nextQuestion = function () {
+  const randomQuestion = this.questions[randomInt(0, this.questions.length - 1)];
 
   this.state.correctAnswer = randomQuestion.correctAnswer;
   this.state.question = randomQuestion.question;
@@ -30,7 +30,7 @@ app.start = function () {
       this.nextQuestion();
       updateView(this.state);
     })
-    
+
 }
 
 export { app };
