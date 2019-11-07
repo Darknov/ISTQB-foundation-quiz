@@ -9,6 +9,7 @@
 .idea/**/dictionaries
 .idea/**/shelf
 *.pdf
+node_modules
 
 # Generated files
 .idea/**/contentModel.xml
