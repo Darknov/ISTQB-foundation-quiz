@@ -1,22 +1,6 @@
 {
   "questions": [
     {
-      "question": "Która z poniższych odpowiedzi NAJLEPIEJ opisuje warunek testowy?",
-      "possibleAnswers": [
-        "a) Atrybut modułu lub systemu wyspecyfikowany w dokumentacji wymagań lub z niej\r\n        wywnioskowany. ",
-        "b) Element lub zdarzenie modułu lub systemu, które może być zweryfikowane przez\r\n        jeden lub więcej przypadków testowych, np. funkcja, transakcja, cecha, atrybut\r\n        jakości lub element struktury.",
-        "c) Zdolność oprogramowania do zapewnienia funkcji odpowiadających zdefiniowanym\r\n        i przewidywanym potrzebom, gdy oprogramowanie jest używane w określonych\r\n        warunkach. ",
-        "d) Procent pokrycia wyników warunków atomowych niezależnie wpływających na wynik\r\n        decyzji wykonany przez zestaw przypadków testowych."
-      ],
-      "correctAnswers": "b",
-      "explanation": [
-        "a) Odpowiedź niepoprawna. Jest to definicja „cechy” zgodnie ze Słownikiem\r\n        wyrażeń związanych z testowaniem wersja 3.2. ",
-        "b) Odpowiedź poprawna — zgodnie ze Słownikiem wyrażeń związanych z\r\n        testowaniem wersja 3.2.",
-        "c) Odpowiedź niepoprawna. Jest to definicja „przydatności funkcjonalnej”\r\n        zgodnie ze Słownikiem wyrażeń związanych z testowaniem wersja 3.2.",
-        "d) Odpowiedź niepoprawna. Jest to definicja „zmodyfikowanego pokrycia\r\n        warunków/decyzji (MC/DC)” zgodnie ze Słownikiem wyrażeń związanych z\r\n        testowaniem wersja 3.2."
-      ]
-    },
-    {
       "question": "",
       "possibleAnswers": [
         "",
@@ -30,6 +14,22 @@
         "",
         "",
         ""
+      ]
+    },
+    {
+      "question": "Która z poniższych odpowiedzi NAJLEPIEJ opisuje warunek testowy?",
+      "possibleAnswers": [
+        "a) Atrybut modułu lub systemu wyspecyfikowany w dokumentacji wymagań lub z niej\r\n        wywnioskowany. ",
+        "b) Element lub zdarzenie modułu lub systemu, które może być zweryfikowane przez\r\n        jeden lub więcej przypadków testowych, np. funkcja, transakcja, cecha, atrybut\r\n        jakości lub element struktury.",
+        "c) Zdolność oprogramowania do zapewnienia funkcji odpowiadających zdefiniowanym\r\n        i przewidywanym potrzebom, gdy oprogramowanie jest używane w określonych\r\n        warunkach. ",
+        "d) Procent pokrycia wyników warunków atomowych niezależnie wpływających na wynik\r\n        decyzji wykonany przez zestaw przypadków testowych."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Jest to definicja „cechy” zgodnie ze Słownikiem\r\n        wyrażeń związanych z testowaniem wersja 3.2. ",
+        "b) Odpowiedź poprawna — zgodnie ze Słownikiem wyrażeń związanych z\r\n        testowaniem wersja 3.2.",
+        "c) Odpowiedź niepoprawna. Jest to definicja „przydatności funkcjonalnej”\r\n        zgodnie ze Słownikiem wyrażeń związanych z testowaniem wersja 3.2.",
+        "d) Odpowiedź niepoprawna. Jest to definicja „zmodyfikowanego pokrycia\r\n        warunków/decyzji (MC/DC)” zgodnie ze Słownikiem wyrażeń związanych z\r\n        testowaniem wersja 3.2."
       ]
     },
     {
