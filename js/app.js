@@ -39,12 +39,13 @@ app.checkState = function () {
   if (isCorrectAnswer) {
     this.addScore();
   }
-
 }
 
 app.addAnswer = function (number) {
-  this.state.chosenAnswers.push(number);
-  this.checkState();
+  if (this.state.chosenAnswers.length < this.state.correctAnswers.split(" ").length) {
+    this.state.chosenAnswers.push(number);
+    this.checkState();
+  }
   this.state.showExplanation = true;
   this.state.showNextQuestion = true;
   updateView(this.state);
@@ -58,9 +59,9 @@ app.setButtons = function () {
   }
 }
 
-app.getQuestion = function() {
+app.getQuestion = function () {
   let question = this.questions[randomInt(1, this.questions.length)];
-  while(question.isAnswered) {
+  while (question.isAnswered) {
     question = this.questions[randomInt(1, this.questions.length)];
   }
   question.isAnswered = true;
@@ -80,7 +81,7 @@ app.setQuestion = function () {
 }
 
 app.nextQuestion = function () {
-  if(this.questions.length !== this.state.totalAnswersNumber) {
+  if (this.questions.length !== this.state.totalAnswersNumber) {
     this.setQuestion();
     nextQuestionView(this.state);
     this.setButtons();
@@ -109,6 +110,10 @@ app.start = function () {
       this.nextQuestion();
       updateView(this.state);
     })
+}
+
+app.finish = function() {
+
 }
 
 export { app };

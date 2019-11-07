@@ -1,3 +1,8 @@
+body {
+ display: flex;
+ justify-content: center;
+}
+
 #explanations {
   visibility: hidden;
 }
@@ -8,10 +13,33 @@
 
 #nextQuestion {
   visibility: hidden;
+  
 }
 
 #app {
-  visibility: hidden;
+  display: none;
+  width: 600px;
 }
 
-@import "../node_modules/bulma/css/bulma.css";
+#question {
+  font-size: 130%;
+}
+
+.score {
+  font-size: 120%;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+
+}
+
+.answer * {
+  padding: 7px;
+}
+
+#start {
+  display: inline-block;
+  margin: 30px;
+}

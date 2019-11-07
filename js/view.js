@@ -1,5 +1,7 @@
 import { pageElements as elements } from "./pageElements.js";
 
+const answerLetters = ["a", "b", "c", "d", "e", "f", "g", "h"];
+
 function createAnswers(possibleAnswers) {
   elements.possibleAnswers = [];
   elements.buttons = [];
@@ -10,7 +12,7 @@ function createAnswers(possibleAnswers) {
     button.innerHTML = " --> ";
     button.classList.add("button");
 
-    const answer = document.createElement("span");
+    const answer = document.createElement("div");
     answer.innerHTML = possibleAnswers[i];
 
     elements.possibleAnswers.push(answer);
@@ -18,6 +20,7 @@ function createAnswers(possibleAnswers) {
 
     answerDiv.appendChild(button);
     answerDiv.appendChild(answer);
+    answerDiv.classList.add("answer");
 
     elements.answers.appendChild(answerDiv);
   }
@@ -35,11 +38,35 @@ function createExplanations(explanations) {
   }
 }
 
+function highlightAnswers(state) {
+  const correctAnswersTab = state.correctAnswers.split(" ");
+  const chosenAnswers = state.chosenAnswers;
+  if(state.showExplanation) {
+    for(let i = 0; i < chosenAnswers.length; i++) {
+      if(correctAnswersTab.indexOf(answerLetters[chosenAnswers[i]]) !== -1) {
+        elements.buttons[chosenAnswers[i]].classList.add('is-success');
+      } else {
+        elements.buttons[chosenAnswers[i]].classList.add('is-danger');
+        for(let j = 0; j < correctAnswersTab.length; j++) {
+          elements.buttons[answerLetters.indexOf(correctAnswersTab[i])]
+            .classList.add('is-success');
+        }
+      }
+    }
+  } else {
+    for (const button of elements.buttons) {
+      button.classList.remove('is-danger', 'is-success');
+    }
+  }
+}
+
 export function updateView(state) {
   elements.correctAnswersNumber.innerHTML = state.correctAnswersNumber;
   elements.totalAnswersNumber.innerHTML = state.totalAnswersNumber;
 
   elements.question.innerHTML = state.question;
+
+  highlightAnswers(state);
 
   if (state.showExplanation) {
     elements.explanation.style.visibility = "visible";
