@@ -7,10 +7,17 @@ function createAnswers(possibleAnswers) {
   elements.buttons = [];
   elements.answers.innerHTML = "";
   for (let i = 0; i < possibleAnswers.length; i++) {
-    const answerDiv = document.createElement("div");
+    const answerDiv = document.createElement("div")
+    answerDiv.classList.add("answer");
+
     const button = document.createElement("button");
-    button.innerHTML = " --> ";
     button.classList.add("button");
+    button.innerHTML = 
+    `
+    <span class="icon is-medium">
+      <i class="fas fa-arrow-right fa-2x"></i>
+    </span>
+    `
 
     const answer = document.createElement("div");
     answer.innerHTML = possibleAnswers[i];
@@ -20,7 +27,7 @@ function createAnswers(possibleAnswers) {
 
     answerDiv.appendChild(button);
     answerDiv.appendChild(answer);
-    answerDiv.classList.add("answer");
+    
 
     elements.answers.appendChild(answerDiv);
   }
@@ -41,13 +48,13 @@ function createExplanations(explanations) {
 function highlightAnswers(state) {
   const correctAnswersTab = state.correctAnswers.split(" ");
   const chosenAnswers = state.chosenAnswers;
-  if(state.showExplanation) {
-    for(let i = 0; i < chosenAnswers.length; i++) {
-      if(correctAnswersTab.indexOf(answerLetters[chosenAnswers[i]]) !== -1) {
+  if (state.showExplanation) {
+    for (let i = 0; i < chosenAnswers.length; i++) {
+      if (correctAnswersTab.indexOf(answerLetters[chosenAnswers[i]]) !== -1) {
         elements.buttons[chosenAnswers[i]].classList.add('is-success');
       } else {
         elements.buttons[chosenAnswers[i]].classList.add('is-danger');
-        for(let j = 0; j < correctAnswersTab.length; j++) {
+        for (let j = 0; j < correctAnswersTab.length; j++) {
           elements.buttons[answerLetters.indexOf(correctAnswersTab[i])]
             .classList.add('is-success');
         }
