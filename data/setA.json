@@ -95,6 +95,550 @@
         "c) Odpowiedź poprawna. W sylabusie p. 1.3. zasada 5. podano, że „aby móc\r\n        wykrywać nowe defekty, może być konieczne zmodyfikowanie\r\n        dotychczasowych testów i danych testowych, a także napisanie nowych\r\n        testów.” Automatyczne testy regresji tych samych przypadków testowych\r\n        nie przyniosą nowych wyników.",
         "d) Odpowiedź niepoprawna. Zasada „kumulowanie się defektów” (sylabus, p.\r\n        1.3.4., zasada 4.) mówi, że „zwykle większość defektów wykrytych podczas\r\n        testowania przed przekazaniem oprogramowania do eksploatacji lub\r\n        większość awarii występujących w fazie eksploatacji występuje lub ma swoje\r\n        źródło w niewielkiej liczbie modułów”, co nie oznacza, że coraz mniej błędów\r\n        zostanie znalezionych."
       ]
+    },
+    {
+      "question": "Testowanie może być elementem zapewnienia jakości, ponieważ: ",
+      "possibleAnswers": [
+        "a) Gwarantuje, że wymagania są dostatecznie szczegółowe.",
+        "b) Pozwala obniżyć poziom ryzyka związanego z jakością systemu. ",
+        "c) Gwarantuje przestrzeganie standardów w organizacji.",
+        "d) Pozwala zmierzyć jakość oprogramowania w kategoriach liczby wykonanych\r\n        przypadków testowych."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Jest to element zapewnienia jakości, a nie\r\n        testowania (sylabus, p. 1.2.2.).",
+        "b) Odpowiedź poprawna. Testowanie przyczynia się do osiągnięcia jakości na\r\n        wiele sposobów takich jak zmniejszenie ryzyka nieodpowiedniej jakości\r\n        oprogramowania (sylabus, p. 1.2.2.).\r\n        ",
+        "c) Odpowiedź niepoprawna. Jest to element zapewnienia jakości, a nie\r\n        testowania. (sylabus, p. 1.2.2.).",
+        "d) Odpowiedź niepoprawna. Jakości nie da się zmierzyć na podstawie liczby\r\n        wykonanych przypadków testowych, jeśli nie są znane wyniki (sylabus, p.\r\n        1.2.2.)."
+      ]
+    },
+    {
+      "question": "Które z poniższych zadań jest wykonywane na etapie analizy testów zgodnie z procesem\r\n      testowym ISTQB?",
+      "possibleAnswers": [
+        "a) Zidentyfikowanie wszelkich niezbędnych narzędzi i elementów infrastruktury.",
+        "b) Utworzenie zestawów testów na podstawie procedur testowych.",
+        "c) Przeanalizowanie zdobytych doświadczeń w celu udoskonalenia procesu.",
+        "d) Dokonanie oceny podstawy testów pod kątem testowalności."
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Czynność ta jest wykonywana na etapie\r\n        projektowania testów (sylabus, p. 1.4.2. projektowanie testów).",
+        "b) Odpowiedź niepoprawna. Czynność ta jest wykonywana na etapie\r\n        implementacji testów (sylabus, p. 1.4.2. implementacja testów).",
+        "c) Odpowiedź niepoprawna. Czynność ta jest wykonywana na etapie\r\n        ukończenia testów (sylabus, p. 1.4.2. ukończenie testów).",
+        "d) Odpowiedź poprawna. Czynność ta jest wykonywana na etapie analizy\r\n        testów (sylabus, p. 1.4.2. analiza testów)."
+      ]
+    },
+    {
+      "question": "Wskaż różnice między poniższymi produktami pracy związanymi z testowaniem (1–4),\r\n      przypisując do nich odpowiednie opisy (A–D).\r\n      1. Zestaw testów.\r\n      2. Przypadek testowy.\r\n      3. Procedura testowa.\r\n      4. Karta opisu testu.\r\n      A. Grupa skryptów testowych lub harmonogram wykonania testów.\r\n      B. Sekwencja przypadków testowych w kolejności wykonywania.\r\n      C. Wykaz oczekiwanych rezultatów.\r\n      D. Dokument opisujący aktywności testowe.",
+      "possibleAnswers": [
+        "a) 1A, 2C, 3B, 4D",
+        "b) 1D, 2B, 3A, 4C",
+        "c) 1A, 2C, 3D, 4B",
+        "d) 1D, 2C, 3B, 4A"
+      ],
+      "correctAnswers": "a",
+      "explanation": [
+        "Zestaw testowy — patrz Słownik wyrażeń związanych z testowaniem wersja 3.2.:\r\n        „Zestaw przypadków testowych lub procedur testowych zorganizowanych we\r\n        wspólnym celu lub dla celu testowego”. (1A)\r\n        Przypadek testowy — patrz Słownik wyrażeń związanych z testowaniem wersja\r\n        3.2.: „Zestaw warunków wstępnych, danych wejściowych, akcji (w stosownych\r\n        przypadkach), oczekiwanych rezultatów i warunków końcowych …”. (2C)\r\n        Procedura testowa — patrz Słownik wyrażeń związanych z testowaniem wersja\r\n        3.2.: „Sekwencja przypadków testowych w kolejności wykonywania ..... ”. (3B)\r\n        Karta opisu testu — patrz Słownik wyrażeń związanych z testowaniem wersja\r\n        3.2.: „Dokument opisujący aktywności testowe wykorzystywany w testowaniu\r\n        eksploracyjnym opartym na sesjach”. (4D)\r\n        a) Odpowiedź poprawna.",
+        "b) Odpowiedź niepoprawna.",
+        "c) Odpowiedź niepoprawna.",
+        "d) Odpowiedź niepoprawna."
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "question": "",
+      "possibleAnswers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAnswers": "",
+      "explanation": [
+        "",
+        "",
+        "",
+        ""
+      ]
     }
   ]
 }
