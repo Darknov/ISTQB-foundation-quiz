@@ -86,22 +86,22 @@ app.nextQuestion = function () {
 
 app.setup = async function () {
   this.state = {};
-  const questions = await getQuestions()
-  for (const q of questions) {
-    q.isAnswered = false;
-  }
+  const questions = await getQuestions();
   return questions;
 }
 
-app.begin = function() {
+app.begin = function () {
   this.setup()
-  .then(questions => {
-    this.questions = questions;
-    this.state.totalAnswersNumber = 1;
-    this.state.correctAnswersNumber = 0;
-    this.nextQuestion();
-    updateView(this.state);
-  });
+    .then(questions => {
+      this.questions = questions;
+      for (const q of this.questions) {
+        q.isAnswered = false;
+      }
+      this.state.totalAnswersNumber = 1;
+      this.state.correctAnswersNumber = 0;
+      this.nextQuestion();
+      updateView(this.state);
+    });
 }
 
 app.start = function () {

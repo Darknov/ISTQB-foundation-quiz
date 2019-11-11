@@ -145,19 +145,19 @@
       ]
     },
     {
-      "question": "",
+      "question": "W jakim celu można zastosować testowanie białoskrzynkowe na etapie testowania\r\n      akceptacyjnego?",
       "possibleAnswers": [
-        "",
-        "",
-        "",
-        ""
+        "a) Aby sprawdzić, czy między integrowanymi systemami można przesyłać duże ilości\r\n        danych.",
+        "b) Aby sprawdzić, czy zostały wykonane wszystkie instrukcje kodu i ścieżki decyzyjne\r\n        w kodzie.",
+        "c) Aby sprawdzić, czy zostały pokryte wszystkie przepływy pracy związane z procesami.",
+        "d) Aby zapewnić pełne pokrycie nawigacji na stronach internetowych."
       ],
-      "correctAnswers": "",
+      "correctAnswers": "c",
       "explanation": [
-        "",
-        "",
-        "",
-        ""
+        "a) Odpowiedź niepoprawna. Dotyczy to testowania integracyjnego (sylabus, p.\r\n        2.2.2.).",
+        "b) Odpowiedź niepoprawna. Dotyczy to testowania modułowego (sylabus, p.\r\n        2.2.1.).",
+        "c) Odpowiedź poprawna. Patrz p. 2.3.5. sylabusa: podczas testowania\r\n        akceptacyjnego przez użytkownika projektowane są testy mające zapewnić\r\n        pokrycie wszystkich przepływów pracy związanych z procesami.",
+        "d) Odpowiedź niepoprawna. Dotyczy to testowania systemowego (sylabus, p.\r\n        2.2.3.)."
       ]
     },
     {
