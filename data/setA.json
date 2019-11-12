@@ -159,6 +159,460 @@
         "c) Odpowiedź poprawna. Patrz p. 2.3.5. sylabusa: podczas testowania\r\n        akceptacyjnego przez użytkownika projektowane są testy mające zapewnić\r\n        pokrycie wszystkich przepływów pracy związanych z procesami.",
         "d) Odpowiedź niepoprawna. Dotyczy to testowania systemowego (sylabus, p.\r\n        2.2.3.)."
       ]
+    },
+    {
+      "question": "Które z poniższych stwierdzeń porównujących testowanie modułowe z testowaniem\r\n      systemowym jest PRAWDZIWE?",
+      "possibleAnswers": [
+        "a) Testowanie modułowe służy do weryfikowania funkcjonalności modułów\r\n        oprogramowania, obiektów programów i klas, które można przetestować oddzielnie,\r\n        natomiast testowanie systemowe pozwala zweryfikować interfejsy między modułami\r\n        oraz interakcje między poszczególnymi częściami systemu.",
+        "b) Przypadki testowe do testowania modułowego tworzy się zwykle na podstawie\r\n        specyfikacji modułów, specyfikacji projektowych lub modeli danych, natomiast\r\n        przypadki testowe do testowania systemowego wyprowadza się zwykle ze\r\n        specyfikacji wymagań, specyfikacji funkcjonalnych lub przypadków użycia.",
+        "c) Testowanie modułowe skupia się wyłącznie na charakterystykach funkcjonalnych,\r\n        natomiast testowanie systemowe skupia się na charakterystykach funkcjonalnych\r\n        i niefunkcjonalnych.",
+        "d) Za testowanie modułowe odpowiadają testerzy, natomiast za testowanie systemowe\r\n        zwykle odpowiadają użytkownicy systemu."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Testowanie systemowe nie pozwala na weryfikację\r\n        interfejsów między modułami ani interakcji między różnymi częściami\r\n        systemu; jest to celem testowania integracyjnego (sylabus, p. 2.2.2.).",
+        "b) Odpowiedź poprawna. Patrz p. 2.2.1. sylabusa: „Przykładowe produkty\r\n        pracy, które mogą być wykorzystywane jako podstawa testów w ramach\r\n        testowania modułowego, to między innymi:\r\n        • projekt szczegółowy,\r\n        • kod,\r\n        • model danych,\r\n        • specyfikacje modułów.”\r\n        Ponadto patrz p. 2.2.3. sylabusa: „Przykładowe produkty pracy, które mogą\r\n        być wykorzystywane jako podstawa testów w ramach testowania\r\n        systemowego, to między innymi:\r\n        • specyfikacje wymagań (funkcjonalnych i niefunkcjonalnych)\r\n        dotyczących systemu i oprogramowania,\r\n        • raporty z analizy ryzyka,\r\n        • przypadki użycia,\r\n        • opowieści i historyjki użytkownika,\r\n        • modele zachowania systemu,\r\n        • diagramy stanów,\r\n        • instrukcje obsługi systemu i podręczniki użytkownika.”",
+        "c) Odpowiedź niepoprawna. Testowanie modułowe nie skupia się WYŁĄCZNIE\r\n        na charakterystykach funkcjonalnych.",
+        "d) Odpowiedź niepoprawna. Za testowanie modułowe odpowiadają zwykle\r\n        programiści, a testowanie systemowe leży zwykle w gestii testerów (sylabus,\r\n        p. 2.2.2.)."
+      ]
+    },
+    {
+      "question": "Które z poniższych stwierdzeń jest zgodne z prawdą?",
+      "possibleAnswers": [
+        "a) Celem testów regresji jest sprawdzenie, czy poprawka została zaimplementowana\r\n        pomyślnie, a celem testowania potwierdzającego jest upewnienie się, że\r\n        wprowadzenie poprawki nie pociąga za sobą skutków ubocznych.",
+        "b) Celem testowania regresywnego jest wykrycie niezamierzonych skutków ubocznych,\r\n        a celem testów regresji jest sprawdzenie, czy system nadal działa w nowym\r\n        środowisku.",
+        "c) Celem testów regresji jest wykrycie niezamierzonych skutków ubocznych, a celem\r\n        testowania potwierdzającego jest sprawdzenie, czy pierwotnie wykryty defekt został\r\n        usunięty.",
+        "d) Celem testów regresji jest sprawdzenie, czy nowa funkcjonalność działa, a celem\r\n        testowania potwierdzającego jest sprawdzenie, czy pierwotnie wykryty defekt został\r\n        usunięty."
+      ],
+      "correctAnswers": "c",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Testowanie regresji nie ma na celu sprawdzenia\r\n        skuteczności implementacji, a testowanie potwierdzające nie służy wykryciu\r\n        ewentualnych skutków ubocznych (sylabus, p. 2.4.).",
+        "b) Odpowiedź niepoprawna. Stwierdzenie dotyczące testowania\r\n        potwierdzającego powinno dotyczyć testowania regresji (sylabus, p. 2.4.).",
+        "c) Odpowiedź poprawna — zgodnie z p. 2.3.4. sylabusa.",
+        "d) Odpowiedź niepoprawna. Testowanie nowej funkcjonalności nie jest\r\n        testowaniem regresji (sylabus, p. 2.4.)."
+      ]
+    },
+    {
+      "question": "Która z poniższych odpowiedzi zawiera NAJLEPSZĄ definicję modelu przyrostowego?",
+      "possibleAnswers": [
+        "a) Definiowanie wymagań, projektowanie oprogramowania i testowanie odbywają się\r\n        w szeregu krótszych cykli wytwarzania oprogramowania.",
+        "b) Każda faza procesu wytwarzania oprogramowania powinna rozpoczynać się po\r\n        zakończeniu poprzedniej fazy.",
+        "c) Testowanie jest postrzegane jako odrębna faza procesu wytwarzania wykonywania\r\n        po zakończeniu fazy implementacji.",
+        "d) Testowanie jest dodawane do prac programistycznych jako element przyrostowy."
+      ],
+      "correctAnswers": "a",
+      "explanation": [
+        "a) Odpowiedź poprawna. Patrz p. 2.1.1. sylabusa: przyrostowe wytwarzanie\r\n        oprogramowania to proces polegający na określaniu wymagań oraz\r\n        projektowaniu, budowaniu i testowaniu systemu częściami.",
+        "b) Odpowiedź niepoprawna. Opis ten dotyczy modelu sekwencyjnego (sylabus,\r\n        p. 2.1.1.).",
+        "c) Odpowiedź niepoprawna. Opis ten dotyczy modelu kaskadowego (sylabus,\r\n        p. 2.1.1.).",
+        "d) Odpowiedź niepoprawna. Samo testowanie nie jest elementem\r\n        przyrostowym/dodatkowym krokiem w procesie wytwarzania\r\n        oprogramowania (sylabus, p. 2.1.1.)."
+      ]
+    },
+    {
+      "question": "Które z poniższych zdarzeń NIE powinno uruchamiać testowania pielęgnacyjnego?",
+      "possibleAnswers": [
+        "a) Decyzja o przetestowaniu utrzymywalności oprogramowania.",
+        "b) Decyzja o przetestowaniu systemu po migracji na nową platformę operacyjną.",
+        "c) Decyzja o przeprowadzeniu testów w celu sprawdzenia, czy istnieje możliwość\r\n        przywrócenia zarchiwizowanych danych.",
+        "d) Decyzja o przeprowadzeniu testów po wprowadzeniu doraźnych poprawek (ang.\r\n        hotfix)."
+      ],
+      "correctAnswers": "a",
+      "explanation": [
+        "a) Odpowiedź poprawna. Jest to testowanie utrzymywalności, a nie\r\n        testowanie pielęgnacyjne.",
+        "b) Odpowiedź niepoprawna. Patrz p. 2.4.1. sylabusa: zdarzenie to uruchamia\r\n        testowanie pielęgnacyjne w postaci testów produkcyjnych nowego\r\n        środowiska i zmienionego oprogramowania.",
+        "c) Odpowiedź niepoprawna. Patrz p. 2.4.1. sylabusa: zdarzenie to uruchamia\r\n        testowanie pielęgnacyjne w postaci przetestowania procedur\r\n        odtwarzania/odzyskiwania danych po długim okresie archiwizacji.",
+        "d) Odpowiedź niepoprawna. Patrz p. 2.4.1. sylabusa: zdarzenie to uruchamia\r\n        testowanie pielęgnacyjne w postaci zmodyfikowania dostarczonego\r\n        oprogramowania w trybie reaktywnym w celu usunięcia pilnych defektów,\r\n        które spowodowały rzeczywistą awarię."
+      ]
+    },
+    {
+      "question": "Która z poniższych odpowiedzi przedstawia role występujące w przeglądzie formalnym?",
+      "possibleAnswers": [
+        "a) Programista, moderator, lider przeglądu, przeglądający, tester.",
+        "b) Autor, moderator, kierownik, przeglądający, programista.",
+        "c) Autor, kierownik, lider przeglądu, przeglądający, projektant.",
+        "d) Autor, moderator, lider przeglądu, przeglądający, protokolant."
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Patrz p. 3.2.2. sylabusa: tester i programista NIE są\r\n        rolami wymienionymi w sylabusie.",
+        "b) Odpowiedź niepoprawna. Patrz p. 3.2.2. sylabusa: programista NIE jest rolą\r\n        wymienioną w sylabusie.",
+        "c) Odpowiedź niepoprawna. Patrz p. 3.2.2. sylabusa: projektant NIE jest rolą\r\n        wymienioną w sylabusie.",
+        "d) Odpowiedź poprawna — zgodnie z p. 3.2.2. sylabusa."
+      ]
+    },
+    {
+      "question": "Która z poniższych odpowiedzi opisuje główne fazy przeglądu formalnego?",
+      "possibleAnswers": [
+        "a) Rozpoczęcie przeglądu, prześledzenie dotychczasowych działań, przegląd\r\n        indywidualny, spotkanie związane z przeglądem, wprowadzenie poprawek, dalsze\r\n        czynności.",
+        "b) Planowanie, przegląd indywidualny, spotkanie związane z przeglądem, wprowadzenie\r\n        poprawek, zamknięcie, dalsze czynności.",
+        "c) Planowanie, rozpoczęcie przeglądu, przegląd indywidualny, spotkanie związane\r\n        z przeglądem, usunięcie defektów i raportowanie.",
+        "d) Przegląd indywidualny, spotkanie związane z przeglądem, wprowadzenie poprawek,\r\n        zamknięcie, dalsze czynności, analiza przyczyny podstawowej."
+      ],
+      "correctAnswers": "c",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Zbieranie metryk jest wykonywane podczas\r\n        czynności „usunięcie defektów i raportowanie” (sylabus, p. 3.2.1.).",
+        "b) Odpowiedź niepoprawna. Udzielenie odpowiedzi na ewentualne pytania\r\n        uczestników jest wykonywane podczas „rozpoczęcia przeglądu” (sylabus, p.\r\n        3.2.1.).",
+        "c) Odpowiedź poprawna. Zgodnie z p. 3.2.1. sylabusa sprawdzanie kryteriów\r\n        wejścia ma miejsce przy planowaniu formalnego przeglądu.",
+        "d) Odpowiedź niepoprawna. Ocena wyników przeglądu pod kątem kryteriów\r\n        wyjścia należy do działania „przekazanie informacji o problemach i analiza\r\n        problemów” (sylabus, p. 3.2.1.)."
+      ]
+    },
+    {
+      "question": "Który z poniższych typów przeglądów NAJLEPIEJ sprawdzi się w sytuacji, w której przegląd\r\n      musi zostać przeprowadzony zgodnie z formalnym procesem opartym na regułach i listach\r\n      kontrolnych?",
+      "possibleAnswers": [
+        "a) Przegląd nieformalny.",
+        "b) Przegląd techniczny.",
+        "c) Inspekcja.",
+        "d) Przejrzenie."
+      ],
+      "correctAnswers": "c",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Przegląd nieformalny nie wymaga formalnego\r\n        procesu. (sylabus, p. 3.2.3.).",
+        "b) Odpowiedź niepoprawna. Stosowanie list kontrolnych jest w tym przypadku\r\n        opcjonalne (sylabus, p. 3.2.3.).",
+        "c) Odpowiedź poprawna. Patrz p. 3.2.3. sylabusa: przegląd taki odbywa się\r\n        zgodnie ze zdefiniowanym procesem opartym na regułach i listach\r\n        kontrolnych.",
+        "d) Odpowiedź niepoprawna. Ten typ przeglądu nie wymaga formalnego\r\n        procesu, a użycie list kontrolnych jest opcjonalne (sylabus, p. 3.2.3.)."
+      ]
+    },
+    {
+      "question": "Wskaż DWA stwierdzenia dotyczące testowania statycznego, które są ZASADNICZO\r\n      prawdziwe.",
+      "possibleAnswers": [
+        "a) Testowanie statyczne umożliwia wykrywanie i usuwanie defektów niewielkim\r\n        kosztem.",
+        "b) Testowanie statyczne ułatwia późniejsze testowanie dynamiczne.",
+        "c) Testowanie statyczne pozwala dokonać wczesnej walidacji wymagań użytkowników.",
+        "d) Testowanie statyczne umożliwia wykrycie problemów związanych z wykonywaniem\r\n        na wczesnym etapie cyklu życia.",
+        "e) W przypadku testowania systemu krytycznego ze względów bezpieczeństwa\r\n        testowanie statyczne ma mniejszą wartość, ponieważ testowanie dynamiczne\r\n        pozwala skuteczniej wykryć defekty."
+      ],
+      "correctAnswers": "a c",
+      "explanation": [
+        "a) Odpowiedź poprawna. Usunięcie defektów wykrytych na wczesnym etapie\r\n        cyklu życia oprogramowania jest często dużo tańsze niż usunięcie defektów\r\n        wykrytych na późniejszych etapach (patrz p. 3.1.2. sylabusa).",
+        "b) Odpowiedź niepoprawna. Testowanie dynamiczne nadal wiąże się\r\n        z poważnymi wyzwaniami (sylabus, p. 3.1.2.).",
+        "c) Odpowiedź poprawna. Ten rodzaj testowania pozwala bardziej efektywnie\r\n        wykrywać i usuwać defekty jeszcze przed wykonaniem testów\r\n        dynamicznych (patrz p. 3.1.2. sylabusa).",
+        "d) Odpowiedź niepoprawna. Jest to testowanie dynamiczne.",
+        "e) Odpowiedź niepoprawna. Analiza statyczna jest istotna w przypadku\r\n        systemów komputerowych krytycznych ze względów bezpieczeństwa (patrz\r\n        podrozdział 3.1. sylabusa)."
+      ]
+    },
+    {
+      "question": "Trwa przegląd projektu systemu służącego do zarządzania prenumeratą czasopisma.\r\n      Przewiduje się, że użytkownikami systemu będą:\r\n      - prenumeratorzy;\r\n      - pracownicy działu pomocy technicznej;\r\n      - pracownicy działu rozliczeń;\r\n      - administrator bazy danych.\r\n      Użytkownicy poszczególnych typów uzyskują dostęp do systemu przy użyciu różnych\r\n      interfejsów logowania (np. prenumeratorzy logują się przez stronę internetową,\r\n      a pracownicy pomocy technicznej przez aplikację).\r\n      Poszczególnych przeglądających poproszono o dokonanie przeglądu systemu logowania\r\n      z punktu widzenia powyższych kategorii użytkowników.\r\n      Którą z poniższych uwag mogli najprawdopodobniej przekazać WSZYSCY przeglądający?",
+      "possibleAnswers": [
+        "a) Internetowa strona logowania jest zaśmiecona zbyt dużą ilością miejsca\r\n        reklamowego. W rezultacie, trudno jest znaleźć link 'zapomniałeś hasła?'.",
+        "b) Logowanie umożliwiające dostęp do informacji rozliczeniowych powinno umożliwić\r\n        dostęp do informacji o subskrybentach, zamiast zmuszać użytkownika do ponownego\r\n        logowania.",
+        "c) Po zalogowaniu do aplikacji bazodanowej nie ma możliwości wylogowania.",
+        "d) Proces logowania jest bardzo nieintuicyjny ponieważ wymaga podania hasła przed\r\n        podaniem nazwy użytkownika."
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Podano, że architekt systemowy musi uzupełnić\r\n        specyfikację systemu.",
+        "b) Odpowiedź niepoprawna. W sylabusie p. 3.2.4. Przegląd oparty na liście\r\n        kontrolnej stwierdzono, że „Ważne jest również szukanie defektów, które nie\r\n        zostały w niej (liście kontrolnej) uwzględnione”.",
+        "c) Odpowiedź niepoprawna. Każdy przeglądający potwierdza wykonanie swojej\r\n        pracy oficjalnym komunikatem „zakończono”.",
+        "d) Odpowiedź poprawna. Podano, że „lista kontrolna opisuje zakres\r\n        przeglądu”, ale kto ją dostarcza?"
+      ]
+    },
+    {
+      "question": "Testowanie w oparciu o listę kontrolną to:",
+      "possibleAnswers": [
+        "a) Technika testowania, w której testy są wyprowadzane w oparciu o wiedzę testera na\r\n        temat przeszłych awarii, lub generalną wiedzę o trybach możliwych awarii.",
+        "b) Procedura projektowania i/lub wyboru przypadków testowych w oparciu o analizę\r\n        specyfikacji funkcjonalnej modułu lub systemu bez zaglądania w jego wewnętrzną\r\n        strukturę.",
+        "c) Technika projektowania testów oparta na doświadczeniu, w której doświadczony\r\n        tester używa listy ogólnych zagadnień, które powinny być odnotowywane,\r\n        sprawdzone, zapamiętane lub zbioru reguł bądź kryteriów, względem których\r\n        produkt ma być sprawdzany.",
+        "d) Podejście do testowania, w którym tester dynamicznie projektuje i wykonuje testy\r\n        oparte na wiedzy, eksploracji przedmiotu testów i wyników poprzednich testów."
+      ],
+      "correctAnswers": "c",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Jest to definicja „zgadywania błędów” zgodnie ze\r\n        Słownikiem wyrażeń związanych z testowaniem wersja 3.2.",
+        "b) Odpowiedź niepoprawna. Jest to definicja „testowania czarnoskrzynkowego”\r\n        zgodnie ze Słownikiem wyrażeń związanych z testowaniem wersja 3.2.",
+        "c) Odpowiedź poprawna. Definicja zgodna ze Słownikiem wyrażeń związanych\r\n        z testowaniem wersja 3.2.",
+        "d) Odpowiedź niepoprawna. Jest to definicja „testowania eksploracyjnego”\r\n        zgodnie ze Słownikiem wyrażeń związanych z testowaniem wersja 3.2."
+      ]
+    },
+    {
+      "question": "Które z poniższych technik testowania zaliczają się do kategorii technik czarnoskrzynkowych?",
+      "possibleAnswers": [
+        "a) Techniki oparte na analizie architektury.",
+        "b) Techniki sprawdzające, czy przedmiot testów działa zgodnie z projektem\r\n        technicznym.",
+        "c) Techniki oparte na przewidywanym sposobie korzystania z oprogramowania.",
+        "d) Techniki oparte na wymaganiach formalnych."
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Jest to technika białoskrzynkowa (sylabus, p. 2.2.2.\r\n        i 4.1.2.).",
+        "b) Odpowiedź niepoprawna. Jest to technika białoskrzynkowa (sylabus, p.\r\n        4.1.2.).",
+        "c) Odpowiedź niepoprawna. Jest to technika oparta na doświadczeniu (sylabus,\r\n        p. 4.4.).",
+        "d) Odpowiedź poprawna. Patrz p. 4.1.2. sylabusa: „Techniki\r\n        czarnoskrzynkowe (zwane również technikami behawioralnymi lub\r\n        opartymi na specyfikacji) bazują na analizie podstawy testów np. na\r\n        formalnych dokumentach zawierających wymagania, specyfikacjach,\r\n        przypadkach użycia, historyjkach użytkownika lub procesach biznesowych.”"
+      ]
+    },
+    {
+      "question": "Rozważmy następujące stwierdzenie dotyczące pokrycia decyzji:\r\n      Gdy kod zawiera tylko pojedynczą instrukcję if, każdy wykonywany test pozwoli uzyskać\r\n      pokrycie decyzji na poziomie 50%.\r\n      Która z poniższych odpowiedzi jest poprawna?",
+      "possibleAnswers": [
+        "a) Stwierdzenie to jest zgodne z prawdą. Każdy test zapewnia 100% pokrycia instrukcji\r\n        kodu, a w rezultacie 50% pokrycia decyzji.",
+        "b) Stwierdzenie to jest zgodne z prawdą. Każdy pojedynczy test powoduje, że instrukcja\r\n        if daje albo wartość prawdziwą, albo wartość fałszywą.",
+        "c) Stwierdzenie to jest niezgodne z prawdą. Pojedynczy przypadek może\r\n        zagwarantować w tej sytuacji tylko 25% pokrycia decyzji.",
+        "d) Stwierdzenie to jest niezgodne z prawdą. Stwierdzenie jest zbyt szerokie, ponieważ\r\n        może być poprawne lub nie w zależności od testowanego oprogramowania."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Rozważane stwierdzenie jest zgodne z prawdą, ale\r\n        uzasadnienie jest błędne. Związek pomiędzy pokryciem instrukcji i pokryciem\r\n        decyzji jest błędnie przedstawiony (sylabus, p. 4.3.).",
+        "b) Odpowiedź poprawna. W wyniku wykonania każdego przypadku testowego\r\n        instrukcja if zwraca odpowiedź „prawda” lub „fałsz”, co z definicji daje 50%\r\n        pokrycia decyzji (sylabus, p. 4.3.).",
+        "c) Odpowiedź niepoprawna. Pojedynczy przypadek testowy może pokryć więcej\r\n        niż 25% pokrycia instrukcji (sylabus, Rozdział 4.3.).",
+        "d) Odpowiedź niepoprawna. To stwierdzenie jest specyficzne i zawsze\r\n        prawdziwe, ponieważ w tej sytuacji każdy przypadek testowy zapewnia 50%\r\n        pokrycie decyzji."
+      ]
+    },
+    {
+      "question": "Która z poniższych odpowiedzi NAJLEPIEJ opisuje pokrycie instrukcji kodu?",
+      "possibleAnswers": [
+        "a) Jest to miara pokazująca odsetek wykonanych przypadków testowych.",
+        "b) Jest to miara pokazująca odsetek instrukcji wykonywalnych, które zostały\r\n        przetestowane przez zestaw testowy",
+        "c) Jest to miara pokazująca liczbę instrukcji w kodzie źródłowym, które zostały\r\n        wykonane przez zaliczone przypadki testowe.",
+        "d) Jest to miara pokazująca, czy wszystkie instrukcje zostały pokryte (zwracana jest\r\n        wartość prawda/fałsz)."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Pokrycie instrukcji kodu jest miarą liczby\r\n        wykonanych instrukcji przez przypadki testowe.",
+        "b) Odpowiedź poprawna. Patrz p. 4.3.1. sylabusa: testowanie instrukcji służy\r\n        do sprawdzania wykonywalnych instrukcji zawartych w kodzie. Pokrycie\r\n        instrukcji mierzy się procentowo jako iloraz liczby instrukcji wykonanych\r\n        przez testy przez łączną liczbę instrukcji wykonywalnych w przedmiocie\r\n        testów.",
+        "c) Odpowiedź niepoprawna. Pokrycie nie jest miarą liczby\r\n        zaliczonych/niezaliczonych testów.",
+        "d) Odpowiedź niepoprawna. Jest to miara i nie zwraca wartości prawda/fałsz."
+      ]
+    },
+    {
+      "question": "Wskaż DWA prawdziwe stwierdzenia dotyczące relacji między pokryciem instrukcji kodu\r\n      a pokryciem decyzji.",
+      "possibleAnswers": [
+        "a) Pokrycie decyzji jest mocniejsze niż pokrycie instrukcji kodu.",
+        "b) Pokrycie instrukcji kodu jest mocniejsze niż pokrycie decyzji.",
+        "c) Stuprocentowe pokrycie instrukcji kodu gwarantuje stuprocentowe pokrycie decyzji.",
+        "d) Stuprocentowe pokrycie decyzji gwarantuje stuprocentowe pokrycie instrukcji kodu.",
+        "e) Pokrycie decyzji nie może nigdy osiągnąć 100%."
+      ],
+      "correctAnswers": "a d",
+      "explanation": [
+        "a) Odpowiedź poprawna. Zdanie jest prawdziwe, bo 100% pokrycia decyzji\r\n        gwarantuje 100% pokrycia instrukcji (sylabus, p. 4.3.3., trzeci paragraf).",
+        "b) Odpowiedź niepoprawna. Zdanie jest nieprawdziwe, bo 100% pokrycia\r\n        instrukcji nie zapewnia 100% pokrycia decyzji (sylabus, p. 4.3.3., trzeci\r\n        paragraf).",
+        "c) Odpowiedź niepoprawna. Zdanie jest nieprawdziwe, bo możemy twierdzić\r\n        tylko o 100% pokryciu (sylabus, p. 4.3.3., trzeci paragraf).",
+        "d) Odpowiedź poprawna. Zdanie jest prawdziwe, bo 100% pokrycia decyzji\r\n        gwarantuje 100% pokrycia instrukcji (sylabus, p. 4.3.3., trzeci paragraf).",
+        "e) Odpowiedź niepoprawna. Zdanie jest nieprawdziwe (sylabus, p. 4.3.3., trzeci\r\n        paragraf)."
+      ]
+    },
+    {
+      "question": "Testowanie eksploracyjne NIE jest wskazane:",
+      "possibleAnswers": [
+        "a) Gdy występuje presja czasu i/lub gdy wymagania są niekompletne lub niewłaściwe.",
+        "b) W przypadku wytwarzania i testowania systemu metodą przyrostową.",
+        "c) Gdy dostępni są tylko nowi, niedoświadczeni testerzy.",
+        "d) Gdy główną część aplikacji można przetestować tylko w siedzibie klienta."
+      ],
+      "correctAnswers": "c",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Testowanie eksploracyjne nie przyspiesza już\r\n        wyspecyfikowanych testów; jest najbardziej przydatne właśnie w przypadku\r\n        braku lub nieadekwatności specyfikacji bądź w przypadku silnej presji czasu\r\n        (sylabus, p. 4.4.2.).",
+        "b) Odpowiedź niepoprawna. Brak karty opisu testu, która mogła pochodzić z\r\n        analizy testów, jest słabym warunkiem wstępnym do wykonania testów\r\n        eksploracyjnych (sylabus, p. 1.4.3. i 4.4.2.).",
+        "c) Odpowiedź poprawna. Testy eksploracyjne powinny być wykonywane\r\n        przez doświadczonych testerów posiadających wiedzę na temat podobnych\r\n        aplikacji i technologii (sylabus, p. 4.4. oraz 1.4.4.).",
+        "d) Odpowiedź niepoprawna. Same testy eksploracyjne nie dostarczają\r\n        dowodów, że test był bardzo intensywny, można to uzyskać w połączeniu z\r\n        innymi metodami testowymi (sylabus, p. 4.4.2.)."
+      ]
+    },
+    {
+      "question": "Program musi obliczyć wysokość premii dla pracownika. Premia nie może mieć wartości\r\n      ujemnej, może natomiast zostać zredukowana do zera. Jej wysokość zależy od stażu pracy.\r\n\r\n      Wyróżniono następujące kategorie: 2 lata lub mniej; więcej niż 2 lata, ale mniej niż 5 lat; 5 lat\r\n      lub więcej, ale mniej niż 10 lat; 10 lat lub więcej.\r\n\r\n      Ile przypadków testowych jest niezbędnych, jeśli do przetestowania procesu obliczania\r\n      wysokości premii potrzebne są tylko te w oparciu o podział na klasy równoważności dla\r\n      przypadków poprawnych ?",
+      "possibleAnswers": [
+        "a) 3",
+        "b) 5",
+        "c) 2",
+        "d) 4"
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Jedna klasa to za mało. Patrz poprawne 4 klasy\r\n        równoważności w odpowiedzi (d).",
+        "b) Odpowiedź niepoprawna. O jedną klasę za dużo. Patrz poprawne 4 klasy\r\n        równoważności w odpowiedzi (d).",
+        "c) Odpowiedź niepoprawna. Dwie klasy to za mało. Patrz poprawne 4 klasy\r\n        równoważności w odpowiedzi (d).",
+        "d) Odpowiedź poprawna. Potrzebne są następujące klasy równoważności,\r\n        zgodnie z opisem zadania i z zasadą, że dla każdej klasy jeden przypadek\r\n        testowy jest wymagany:\r\n        1. klasa równoważności: 0 < staż pracy ≤ 2\r\n        2. klasa równoważności: 2 < staż pracy < 5\r\n        3. klasa równoważności: 5 ≤ staż pracy < 10\r\n        4. klasa równoważności: 10 ≤ staż pracy."
+      ]
+    },
+    {
+      "question": "System kontroli i raportowania wykroczeń drogowych posiada następującą charakterystykę:\r\n      Do 50 km/h włącznie, nie zostanie wykonana żadna akcja.\r\n\r\n      Pomiędzy 50 km/h a 55 km/h włącznie, kierowca otrzyma ostrzeżenie.\r\n      Pomiędzy 55 km/h a 60 km/h włącznie, kierowca otrzyma mandat.\r\n      Powyżej 60 km/h, kierowcy zostanie odebrane prawo jazdy.\r\n\r\n      Które z poniższych wartości (km/h) są przypadkami testowymi do dwupunktowej analizy\r\n      wartości brzegowych.",
+      "possibleAnswers": [
+        "a) 0, 49, 50, 54, 59, 60.",
+        "b) 50, 55, 60.",
+        "c) 49, 50, 54, 55, 60, 62.",
+        "d) 50, 51, 55, 56, 60, 61."
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "Zidentyfikowane klasy równoważności:\r\n        – 50 wartość brzegowa 50\r\n        51 – 55 wartości brzegowe 51, 55\r\n        56 – 60 wartości brzegowe 56, 60\r\n        61 – wartość brzegowa 61\r\n        bo – zgodnie ze Słownikiem wyrażeń związanych z testowaniem wersja 3.2. –\r\n        wartość brzegowa to „minimalna lub maksymalna wartość uporządkowanej\r\n        klasy równoważności.”\r\n        Stąd:\r\n        a) Odpowiedź niepoprawna. Nie zawiera wszystkich wartości brzegowych.\r\n        Zawiera także przypadki zbędne 0, 49, 59 nie będące wartościami\r\n        brzegowymi (sylabus, p. 4.2.2.).",
+        "b) Odpowiedź niepoprawna. Nie zawiera wszystkich wartości brzegowych,\r\n        brakuje 51 oraz 55 (sylabus, p. 4.2.2.).",
+        "c) Odpowiedź niepoprawna. Nie zawiera wszystkich wartości brzegowych.\r\n        Zawiera przypadki zbędne 49 ,62, 54 nie będące wartościami brzegowymi\r\n        (sylabus, p. 4.2.2.).",
+        "d) Odpowiedź poprawna. Zawiera wszystkie wartości brzegowe (sylabus, p.\r\n        4.2.2.)."
+      ]
+    },
+    {
+      "question": "W przypadku aplikacji do odtwarzania wideo obowiązuje następujące wymaganie:\r\n      Aplikacja musi umożliwiać odtwarzanie wideo na ekranach o następującej rozdzielczości:\r\n      1. 640×480\r\n      2. 1280×720\r\n      3. 1600×1200\r\n      4. 1920×1080\r\n      Który z poniższych przypadków testowych jest rezultatem zastosowania technik podziału na\r\n      klasy równoważności w odniesieniu do tego wymagania?",
+      "possibleAnswers": [
+        "a) Zweryfikowanie, czy aplikacja umożliwia odtwarzanie filmu wideo na ekranie\r\n        o rozdzielczości 1920×1080 (1 test).",
+        "b) Zweryfikowanie, czy aplikacja umożliwia odtwarzanie filmu wideo na ekranach\r\n        o rozdzielczości 640×480 i 1920×1080 (2 testy).",
+        "c) Zweryfikowanie, czy aplikacja umożliwia odtwarzanie filmu wideo we wszystkich\r\n        rozdzielczościach wymienionych w wymaganiu (4 testy).",
+        "d) Zweryfikowanie, czy aplikacja umożliwia odtwarzanie filmu wideo w dowolnej\r\n        z rozdzielczości wymienionych w wymaganiu (1 test)."
+      ],
+      "correctAnswers": "c",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Patrz odpowiedź (c).",
+        "b) Odpowiedź niepoprawna. Patrz odpowiedź (c).",
+        "c) Odpowiedź poprawna. W tym przypadku w wymaganiu wyliczono\r\n        konkretne wartości. Każda wyliczona wartość jest sama w sobie klasą\r\n        równoważności, w związku z czym musi zostać przetestowana w przypadku\r\n        stosowania techniki podziału na klasy równoważności.",
+        "d) Odpowiedź niepoprawna. Patrz odpowiedź (c)."
+      ]
+    },
+    {
+      "question": "Które z poniższych stwierdzeń NAJLEPIEJ opisuje podział zadań między kierownika testów\r\n      a testera?",
+      "possibleAnswers": [
+        "a) Kierownik testów planuje czynności testowe i wybiera standardy, których należy\r\n        przestrzegać, a tester wybiera stosowane narzędzia i mechanizmy nadzoru.",
+        "b) Kierownik testów planuje, organizuje i nadzoruje czynności testowe, a tester\r\n        specyfikuje i wykonuje testy.",
+        "c) Kierownik testów planuje, monitoruje i nadzoruje czynności testowe, a tester\r\n        projektuje testy i podejmuje decyzje dotyczące struktur do testów automatycznych.",
+        "d) Kierownik testów planuje i organizuje testowanie oraz specyfikuje przypadki testowe,\r\n        a tester ustala priorytety i wykonuje testy."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Patrz p. 5.1.2. sylabusa: wybór narzędzi\r\n        i mechanizmów nadzoru jest zadaniem kierownika testów.",
+        "b) Odpowiedź poprawna. Patrz p. 5.1.2. sylabusa.",
+        "c) Odpowiedź niepoprawna. Tester nie podejmuje decyzji o wdrożeniu\r\n        testowanego obiektu (sylabus, p. 5.1.2.) .",
+        "d) Odpowiedź niepoprawna. Tester – a nie kierownik testów – specyfikuje\r\n        przypadki testowe (sylabus, p. 5.1.2.)."
+      ]
+    },
+    {
+      "question": "Podczas wykonywania danego poziomu testów i po jego zakończeniu można zbierać\r\n      określone miary.\r\n      Która z poniższych miar jest NAJBARDZIEJ przydatna w kontekście monitorowania\r\n      wykonywania testów?",
+      "possibleAnswers": [
+        "a) Liczba wykonanych przypadków testowych.",
+        "b) Procent wykonania prac związanych z przygotowaniem środowiska testowego.",
+        "c) Procent przygotowania zaplanowanych przypadków testowych.",
+        "d) Procent wykonania prac związanych z przygotowaniem przypadków testowych."
+      ],
+      "correctAnswers": "a",
+      "explanation": [
+        "a) Odpowiedź poprawna. Patrz p. 5.3.1. sylabusa: poziom wykonania\r\n        przypadków testowych (np. liczba wykonanych/niewykonanych\r\n        przypadków testowych oraz zaliczonych/niezaliczonych przypadków\r\n        testowych).",
+        "b) Odpowiedź niepoprawna. Ten parametr może być mierzony, ale jego\r\n        użyteczność jest niska. Liczba testerów nie daje żadnych informacji na\r\n        temat jakości obiektu testowego lub postępu testów.",
+        "c) Odpowiedź niepoprawna. Pokrycie wymagań kodem źródłowym nie jest\r\n        mierzone podczas wykonywania testu, co najwyżej mierzone jest\r\n        pokrycie przez TEST (!) kodu lub wymagań.",
+        "d) Odpowiedź niepoprawna. Parametr ten należy monitorować na etapie\r\n        przygotowania do testów, a nie podczas wykonywania testów."
+      ]
+    },
+    {
+      "question": "Wskaż DWA czynniki, które mogą mieć wpływ na plan testów i być częścią tego planu.",
+      "possibleAnswers": [
+        "a) Ograniczenia budżetowe.",
+        "b) Cele testów.",
+        "c) Dziennik testów.",
+        "d) Współczynnik awarii.",
+        "e) Przypadki użycia."
+      ],
+      "correctAnswers": "a b",
+      "explanation": [
+        "a) Odpowiedź poprawna. Zgodnie z sylabusem p. 5.2.1. budżetowanie\r\n        i podejmowanie decyzji o tym, co testować, są udokumentowane w planie\r\n        testów. Oznacza to, że jeśli podczas planowania testów obowiązują\r\n        ograniczenia budżetowe, należy określić priorytety, tzn. wskazać, które testy\r\n        muszą zostać wykonane, a które można pominąć.",
+        "b) Odpowiedź poprawna. Patrz p. 5.2.1. sylabusa.",
+        "c) Odpowiedź niepoprawna. Jest to element monitorowania testów i nadzoru\r\n        nad testami (sylabus, p. 1.4.2.).",
+        "d) Odpowiedź niepoprawna. Patrz sylabus p. 5.3.1.: typowe metryki testowe.",
+        "e) Odpowiedź niepoprawna. Jest to element projektowania testów (sylabus, p.\r\n        1.4.2.)."
+      ]
+    },
+    {
+      "question": "W której z poniższych odpowiedzi wymieniono typowe kryteria wyjścia dotyczące\r\n      testowania?",
+      "possibleAnswers": [
+        "a) Miary niezawodności, stopień niezależności testerów i kompletność produktu.",
+        "b) Miary niezawodności, koszty testowania, dostępność testowalnego kodu, czas\r\n        wprowadzenia na rynek i kompletność produktu.",
+        "c) Miary niezawodności, koszty testowania, harmonogram i nieusunięte defekty.",
+        "d) Czas wprowadzenia na rynek, nieusunięte defekty, kwalifikacje testerów, stopień\r\n        niezależności testerów i koszty testowania."
+      ],
+      "correctAnswers": "a",
+      "explanation": [
+        "a) Odpowiedź poprawna. Patrz p. 5.2.3. sylabusa.",
+        "b) Odpowiedź niepoprawna. Stopień niezależności testerów nie jest istotny\r\n        z punktu widzenia kryteriów wyjścia (sylabus, p. 5.2.3.).",
+        "c) Odpowiedź niepoprawna. Dostępność środowiska testowego jest kryterium\r\n        wejścia (sylabus, p. 5.2.3.).",
+        "d) Odpowiedź niepoprawna. Dostępność testowalnych wymagań jest kryterium\r\n        wejścia (sylabus, p. 5.2.3)."
+      ]
+    },
+    {
+      "question": "Który z poniższych elementów NIE jest uwzględniany w raporcie z testów?",
+      "possibleAnswers": [
+        "a) Kryteria zaliczenia/niezaliczenia i cele testowania.",
+        "b) Odstępstwa od wybranego podejścia do testowania.",
+        "c) Pomiary rzeczywistego postępu względem kryteriów wyjścia.",
+        "d) Ocena jakości elementu testowego."
+      ],
+      "correctAnswers": "a",
+      "explanation": [
+        "a) Odpowiedź poprawna. Te kryteria zostały już zawarte w planie testów. ",
+        "b) Odpowiedź niepoprawna. Informacje te są zawarte w raporcie z testów.\r\n        Patrz p. 5.3.2. sylabusa: informacje na temat zdarzeń, które miały\r\n        miejsce w okresie testowania.",
+        "c) Odpowiedź niepoprawna. Informacje te są zawarte w raporcie z testów.\r\n        Patrz p. 5.3.2. sylabusa: informacje o statusie testowania i jakości\r\n        produktu z punktu widzenia kryteriów wyjścia (lub definicji ukończenia).",
+        "d) Odpowiedź niepoprawna. Informacje te są zawarte w raporcie z testów.\r\n        Patrz p. 5.3.2. sylabusa: „(…) typowy raport z postępu testów może\r\n        zawierać informacje dotyczące:\r\n        • statusu czynności testowych i postępu realizacji planu testów,\r\n        • czynników zakłócających wykonywanie prac,\r\n        • testów zaplanowanych w następnym okresie raportowania,\r\n        • jakości przedmiotu testów”."
+      ]
+    },
+    {
+      "question": "Istnieje kilka różnych podejść do testowania. Do których podejść (1–4) pasują opisy (A–D)\r\n      poniżej?\r\n      1. Podejście analityczne.\r\n      2. Podejście metodyczne.\r\n      3. Podejście oparte na modelu.\r\n      4. Podejście konsultatywne.\r\n\r\n      A. Testy opracowuje się na podstawie diagramu stanów dotyczącego wymaganego\r\n      aspektu produktu.\r\n      B. Podstawą do projektowania testów i ustalania ich priorytetów jest poziom ryzyka.\r\n      C. Testy wykonuje się poprzez systematyczne stosowanie określonego z góry zbioru\r\n      warunków testowych.\r\n      D. Testy wykonuje się na podstawie wskazówek ekspertów technicznych.",
+      "possibleAnswers": [
+        "a) 1D, 2B, 3A, 4C. ",
+        "b) 1A, 2C, 3D, 4B. ",
+        "c) 1D, 2C, 3B, 4A.",
+        "d) 1B, 2C, 3A, 4D."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "Mapowanie punktów od 1 do 4 do podejść zgodnie z sylabusem p. 5.2. jest\r\n        poprawne tylko dla odpowiedzi (b).\r\n        Mapowanie to można uzasadnić w następujący sposób:\r\n        1. Patrz sylabus p. 5.2.2.: „Przykładem podejścia analitycznego jest testowanie\r\n        oparte na ryzyku, w którym punktem wyjścia do projektowania testów i\r\n        ustalania ich priorytetów jest poziom ryzyka”.",
+        "2. Algorytmy sterujące są „modelowane” na serwerze, dlatego są testowane\r\n        przy użyciu strategii opartej na modelu (patrz sylabus, p. 5.2.2.).",
+        "3. Patrz sylabus, p. 5.2.2.: „Podstawą tej strategii są przede wszystkim porady,\r\n        wskazówki i instrukcje interesariuszy, ekspertów merytorycznych lub\r\n        ekspertów technicznych — również spoza zespołu testowego lub\r\n        organizacji”.",
+        "4. Patrz sylabus, p. 5.2.2.: „W przypadku tej strategii testowanie jest\r\n        ukierunkowane bardziej na reagowanie na zdarzenia niż na realizację\r\n        ustalonego z góry planu (…), a testy są projektowane i mogą być\r\n        natychmiast wykonywane w oparciu o wiedzę uzyskaną dzięki rezultatom\r\n        wcześniejszych testów. Przykładem takiego podejścia jest testowanie\r\n        eksploracyjne, w którym testy są wykonywane i oceniane w odpowiedzi na\r\n        zachowanie oprogramowania podlegającego testowaniu.” "
+      ]
+    },
+    {
+      "question": "Który z poniższych elementów jest charakterystyczny dla szacowania testów techniką opartą\r\n      na miarach?",
+      "possibleAnswers": [
+        "a) Wykorzystanie budżetu we wcześniejszym projekcie związanym z testowaniem.",
+        "b) Łączne doświadczenie zdobyte dzięki rozmowom z kierownikami testów.",
+        "c) Łączne oszacowanie uzgodnione z programistami.",
+        "d) Średnia kalkulacji zebranych od ekspertów merytorycznych."
+      ],
+      "correctAnswers": "a",
+      "explanation": [
+        "a) Odpowiedź poprawna. Patrz p. 5.2.6. sylabusa: „Technika oparta na\r\n        miarach — szacowanie pracochłonności testowania na podstawie miar\r\n        z wcześniejszych, podobnych projektów lub na podstawie wartości\r\n        typowych”.",
+        "b) Odpowiedź niepoprawna. Jest to przykład zastosowania techniki eksperckiej,\r\n        w przypadku której oszacowania zadań dokonuje się na podstawie informacji\r\n        uzyskanych od osób odpowiedzialnych za zadania lub ekspertów (sylabus, p.\r\n        5.2.6).",
+        "c) Odpowiedź niepoprawna. Jest to przykład zastosowania techniki eksperckiej,\r\n        w przypadku której oszacowania zadań dokonuje się na podstawie informacji\r\n        uzyskanych od osób odpowiedzialnych za zadania lub ekspertów (sylabus, p.\r\n        5.2.6.).",
+        "d) Odpowiedź niepoprawna. Jest to przykład zastosowania techniki eksperckiej,\r\n        w przypadku której oszacowania zadań dokonuje się na podstawie informacji\r\n        uzyskanych od osób odpowiedzialnych za zadania lub ekspertów (sylabus, p.\r\n        5.2.6.)."
+      ]
+    },
+    {
+      "question": "Testujesz nową wersję oprogramowania do ekspresu do kawy. Urządzenie może parzyć\r\n      różne rodzaje kawy w oparciu o cztery różne parametry: wielkość napoju, ilość cukru,\r\n      dodatek mleka i rodzaj syropu. Kryteria są następujące:\r\n      • Wielkość kawy (mała, średnia, duża).\r\n      • Ilość cukru (brak, 1 jednostka, 2 jednostki, 3 jednostki, 4 jednostki).\r\n      • Mleko (tak lub nie).\r\n      • Syrop smakowy (brak, karmel, orzech laskowy, wanilia).\r\n\r\n      Sporządzasz raport o defekcie zawierający następujące informacje:\r\n      Tytuł: Niska temperatura kawy.\r\n      Krótkie podsumowanie: Po wybraniu kawy z mlekiem czas przyrządzania napoju jest\r\n      zbyt długi, a temperatura jest zbyt niska (poniżej 40 °C).\r\n      Oczekiwany rezultat: Kawa powinna mieć standardową temperaturę (około 75°C).\r\n      Poziom ryzyka: Średnie.\r\n      Priorytet: Normalny.\r\n\r\n      Jaką cenną informację pominięto w powyższym zgłoszeniu defektu?",
+      "possibleAnswers": [
+        "a) Rzeczywisty rezultat testu.",
+        "b) Dane identyfikujące testowany ekspres.",
+        "c) Status defektu.",
+        "d) Pomysły dotyczące usprawnienia przypadku testowego."
+      ],
+      "correctAnswers": "b",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Rezultat testu podano w krótkim podsumowaniu.",
+        "b) Odpowiedź poprawna. W przypadku testowania różnych wersji\r\n        oprogramowania należy podać informacje identyfikacyjne. Patrz p. 5.6.1.\r\n        sylabusa: identyfikacja elementu testowego (testowanego elementu\r\n        konfiguracji) i środowiska.",
+        "c) Odpowiedź niepoprawna. Podczas tworzenia raportu o defekcie\r\n        automatycznie nadawany jest status „otwarty”.",
+        "d) Odpowiedź niepoprawna. Informacje te są przydatne dla testera, ale nie\r\n        muszą być uwzględnione w raporcie o defekcie."
+      ]
+    },
+    {
+      "question": "Która z poniższych korzyści może NAJPRAWDOPODOBNIEJ wynikać z automatyzacji\r\n      testowania?",
+      "possibleAnswers": [
+        "a) Łatwość tworzenia testów regresji.",
+        "b) Łatwość zapewnienia kontroli wersji w odniesieniu do zasobów testowych.",
+        "c) Łatwość projektowania testów na potrzeby testowania zabezpieczeń.",
+        "d) Łatwość wykonywania testów regresji."
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "a) Odpowiedź niepoprawna. Korzyści są odczuwalne na etapie wykonywania\r\n        testów regresji, a nie ich tworzenia.",
+        "b) Odpowiedź niepoprawna. Do tego służą narzędzia do zarządzania\r\n        konfiguracją.",
+        "c) Odpowiedź niepoprawna. Do tego potrzebne są wyspecjalizowane narzędzia.",
+        "d) Odpowiedź poprawna. Patrz p. 6.1.2. sylabusa: „Ograniczenie\r\n        powtarzalnych czynności wykonywanych ręcznie (takich jak uruchamianie\r\n        testów regresji, wykonywanie zadań związanych z konfigurowaniem i dekonfigurowaniem środowiska, wielokrotne wprowadzanie tych samych\r\n        danych testowych czy sprawdzanie zgodności ze standardami tworzenia\r\n        kodu)”, a więc oszczędzają czas."
+      ]
+    },
+    {
+      "question": "Które narzędzie testowe charakteryzuje się poniższymi cechami?\r\n      1. Wspomaganie zarządzania testami i procesem testowania.\r\n      2. Wspomaganie testowania statycznego.\r\n      3. Wspomaganie wykonywania i rejestrowania testów.\r\n      4. Wspomaganie pomiaru wydajności i analizy dynamicznej.\r\n\r\n      A. Narzędzia mierzące pokrycie.\r\n      B. Narzędzia do zarządzania konfiguracją.\r\n      C. Narzędzia wspomagające przegląd.\r\n      D. Narzędzia do testowania przeciążającego.",
+      "possibleAnswers": [
+        "a) 1A, 2B, 3D, 4C",
+        "b) 1B, 2C, 3D, 4A",
+        "c) 1A, 2C, 3D, 4B",
+        "d) 1B, 2C, 3A, 4D"
+      ],
+      "correctAnswers": "d",
+      "explanation": [
+        "Wspomaganie zarządzania testami i procesem testowania — patrz p. 6.1.1.\r\n        sylabusa: narzędzia do zarządzania konfiguracją. (1B)\r\n        Wspomaganie testowania statycznego — patrz p. 6.1.1. sylabusa: narzędzia\r\n        wspomagające przeprowadzanie przeglądów. (2C)\r\n        Wspomaganie wykonywania i rejestrowania testów — patrz p. 6.1.1. sylabusa:\r\n        narzędzia mierzące pokrycie. (3A)\r\n        Wspomaganie pomiaru wydajności i analizy dynamicznej — patrz p. 6.1.1.\r\n        sylabusa: narzędzia do testów wydajnościowych, narzędzia do testowania\r\n        obciążenia i narzędzia do testowania przeciążającego. (4D)\r\n        W związku z tym:\r\n\r\n        a) Odpowiedź niepoprawna.",
+        "b) Odpowiedź niepoprawna.",
+        "c) Odpowiedź niepoprawna.",
+        "d) Odpowiedź poprawna."
+      ]
     }
   ]
 }
