@@ -94,6 +94,7 @@ app.begin = function () {
   this.setup()
     .then(questions => {
       this.questions = questions;
+      console.log(this.questions);
       for (const q of this.questions) {
         q.isAnswered = false;
       }
