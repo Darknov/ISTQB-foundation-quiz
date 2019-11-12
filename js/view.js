@@ -50,6 +50,7 @@ function highlightAnswers(state) {
   const chosenAnswers = state.chosenAnswers;
   if (state.showExplanation) {
     for (let i = 0; i < chosenAnswers.length; i++) {
+      elements.buttons[chosenAnswers[i]].classList.remove('is-light', 'is-success');
       if (correctAnswersTab.indexOf(answerLetters[chosenAnswers[i]]) !== -1) {
         elements.buttons[chosenAnswers[i]].classList.add('is-success');
       } else {
@@ -61,8 +62,8 @@ function highlightAnswers(state) {
       }
     }
   } else {
-    for (const button of elements.buttons) {
-      button.classList.remove('is-danger', 'is-success');
+    for (const answer of state.chosenAnswers) {
+      elements.buttons[answer].classList.add('is-light', 'is-success');
     }
   }
 }

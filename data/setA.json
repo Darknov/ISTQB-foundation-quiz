@@ -405,7 +405,7 @@
       ]
     },
     {
-      "question": "Program musi obliczyć wysokość premii dla pracownika. Premia nie może mieć wartości\r\n      ujemnej, może natomiast zostać zredukowana do zera. Jej wysokość zależy od stażu pracy.\r\n\r\n      Wyróżniono następujące kategorie: 2 lata lub mniej; więcej niż 2 lata, ale mniej niż 5 lat; 5 lat\r\n      lub więcej, ale mniej niż 10 lat; 10 lat lub więcej.\r\n\r\n      Ile przypadków testowych jest niezbędnych, jeśli do przetestowania procesu obliczania\r\n      wysokości premii potrzebne są tylko te w oparciu o podział na klasy równoważności dla\r\n      przypadków poprawnych ?",
+      "question": "Program musi obliczyć wysokość premii dla pracownika. Premia nie może mieć wartości ujemnej, może natomiast zostać zredukowana do zera. Jej wysokość zależy od stażu pracy.\r\n\r\n      Wyróżniono następujące kategorie: 2 lata lub mniej; więcej niż 2 lata, ale mniej niż 5 lat; 5 lat\r\n      lub więcej, ale mniej niż 10 lat; 10 lat lub więcej.\r\n\r\n      Ile przypadków testowych jest niezbędnych, jeśli do przetestowania procesu obliczania\r\n      wysokości premii potrzebne są tylko te w oparciu o podział na klasy równoważności dla\r\n      przypadków poprawnych ?",
       "possibleAnswers": [
         "a) 3",
         "b) 5",

@@ -40,18 +40,23 @@ app.checkState = function () {
 }
 
 app.addAnswer = function (number) {
-  if (this.state.chosenAnswers.length < this.state.correctAnswers.split(" ").length) {
+  if (this.state.chosenAnswers.length < this.state.correctAnswers.split(" ").length
+    && this.state.chosenAnswers.indexOf(number) === -1) {
     this.state.chosenAnswers.push(number);
-    this.checkState();
   }
-  this.state.showExplanation = true;
-  this.state.showNextQuestion = true;
+  this.checkState();
+  if (this.state.chosenAnswers.length === this.state.correctAnswers.split(" ").length) {
+    this.state.showExplanation = true;
+    this.state.showNextQuestion = true;
+  }
+
+
   updateView(this.state);
 }
 
 app.setButtons = function () {
   for (let i = 0; i < elements.buttons.length; i++) {
-    elements.buttons[i].addEventListener("click", () => {
+    elements.buttons[i].addEventListener("click", (e) => {
       app.addAnswer(i);
     });
   }
@@ -94,7 +99,6 @@ app.begin = function () {
   this.setup()
     .then(questions => {
       this.questions = questions;
-      console.log(this.questions);
       for (const q of this.questions) {
         q.isAnswered = false;
       }
